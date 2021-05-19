@@ -16,6 +16,8 @@ index.js 記得改對連接電腦的 ESP32 的 port number
 
 > port number 改你們自己的
 
+```
 idf.py -p /dev/cu.SLAB_USBtoUART flash
 idf.py -p /dev/cu.SLAB_USBtoUART monitor
 idf.py -p /dev/cu.SLAB_USBtoUART erase_flash
+```
