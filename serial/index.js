@@ -18,8 +18,8 @@ parser.on('data', data => {
     const arr = data.split(',')
     arr.shift()
     arr.pop()
-    console.log(arr.join(','))
-    log.write(arr.join(',') + '\n')
+    console.log(arr.join(',') + `,"${new Date().toISOString()}",${Date.now()}`)
+    log.write(arr.join(',') + `,"${new Date().toISOString()}",${Date.now()}` + '\n')
   }
 })
 
