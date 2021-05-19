@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@serialport/parser-readline": "^9.0.7",
+    "fs-extra": "^10.0.0",
+    "serialport": "^9.0.7",
+    "simple-node-logger": "^18.12.24"
+  }
+}
